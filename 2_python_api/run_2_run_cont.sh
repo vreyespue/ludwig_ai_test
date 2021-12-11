@@ -1,1 +1,0 @@
-docker run -it --rm --name deploy_model_cont deploy_model_img

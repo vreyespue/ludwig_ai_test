@@ -1,1 +1,0 @@
-docker build --progress=plain --no-cache -t deploy_model_img .
