@@ -1,5 +1,0 @@
-ludwig serve -m results_1_experiment/experiment_run/model
-
-# curl http://0.0.0.0:8000/predict -X POST -F 'text=2 USX ltX DEBT DOWGRADED BY MOODYS     NEW YORK  Feb 26 - Moodys Investors Service Inc said it lowered the debt and preferred stock ratings of USX Corp and its units About seven billion dlrs of securities is affected     Moodys said Marathon Oil Cos recent establishment of up to one billion dlrs in production payment facilities on its prolific Yates Field has significant negative implications for USXs unsecured creditors     The company appears to have positioned its steel segment for a return to profit by late 1987  Moodys added     Ratings lowered include those on USXs senior debt to BA-1 from BAA-3  Reuter 3'
-
-# curl http://0.0.0.0:8000/predict -X POST -F 'text=2 COBANCO INC ltCBCO YEAR NET     SANTA CRUZ  Calif  Feb 26 -     Shr 34 cts vs 119 dlrs     Net 807 000 vs 2 858 000     Assets 5102 mln vs 4797 mln     Deposits 4723 mln vs 4403 mln     Loans 2992 mln vs 3272 mln     Note 4th qtr not available Year includes 1985 extraordinary gain from tax carry forward of 132 000 dlrs  or five cts per shr  Reuter 3'

@@ -1,0 +1,12 @@
+input_features:
+  - name: text
+    type: text
+    level: word
+    encoder: parallel_cnn
+
+output_features:
+  - name: label
+    type: category
+
+training:
+  epochs: 4
