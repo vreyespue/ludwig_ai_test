@@ -1,1 +1,1 @@
-docker run -it --rm --name deploy_model_cont deploy_model_img
+docker run -it --rm -p 9000:8000 --name deploy_service_cont deploy_service_img

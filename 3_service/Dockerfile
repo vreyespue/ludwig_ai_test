@@ -11,4 +11,4 @@ RUN poetry --version
 COPY . .
 RUN poetry install
 
-CMD poetry run python deploy_model.py
+CMD poetry run uvicorn main:app --host 0.0.0.0 --port 8000 --reload
