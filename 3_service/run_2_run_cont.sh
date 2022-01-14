@@ -1,1 +1,2 @@
-docker run -it --rm -p 9000:8000 --name deploy_service_cont deploy_service_img
+docker run -it --rm -p 8000:8000 --name deploy_service_cont deploy_service_img
+# curl http://0.0.0.0:8000/predictions -X POST --data-raw '{"text": ["Good movie", "Bad movie"]}' -H "Content-Type: application/json"

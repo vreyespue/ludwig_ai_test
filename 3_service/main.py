@@ -4,14 +4,6 @@ from ludwig.api import LudwigModel
 import pandas as pd
 
 model = LudwigModel.load('./model')
-dataframe_start = pd.DataFrame({'text': [
-    'This was a really good movie, I had a lot of fun',
-    'This was a very bad movie, it was really boring'
-]})
-predictions_start = model.predict(
-    dataset=dataframe_start, data_format='df')
-# print(predictions_start)
-
 
 # poetry run uvicorn main:app --reload
 app = FastAPI()
